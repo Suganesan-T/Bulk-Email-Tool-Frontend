@@ -2,7 +2,7 @@
 import axios from "axios";
 
 //define base url for API
-const BASEURL = "http://localhost:3001";
+const BASEURL = "https://bulk-email-tool-backend-moat.onrender.com";
 
 //create axios instance
 const instance = axios.create({

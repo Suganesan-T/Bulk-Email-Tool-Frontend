@@ -59,7 +59,7 @@ const EmailForm = () => {
         });
 
         try {
-            const response = await axios.post('http://localhost:3001/send-emails', formData, {
+            const response = await axios.post('https://bulk-email-tool-backend-moat.onrender.com/send-emails', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
