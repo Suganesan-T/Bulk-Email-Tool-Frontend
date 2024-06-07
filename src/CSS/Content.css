@@ -1,0 +1,16 @@
+.font-weight-bold{
+    color: rgb(147, 81, 212) !important;
+}
+.lead{
+    color: #dcdcdc;
+}
+.text-muted{
+    color: silver !important;
+}
+img{
+    width: 500 !important;
+    height: 500 !important;
+}
+.featurette-divider{
+    color: black !important;
+}

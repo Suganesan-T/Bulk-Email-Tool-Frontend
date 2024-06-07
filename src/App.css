@@ -1,0 +1,78 @@
+.email-form-container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email-form-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.email-form-group {
+    margin-bottom: 20px;
+}
+
+.email-form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.email-form-group input,
+.email-form-group textarea,
+.email-form-group .ql-container {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.email-form-group .form-control-file {
+    display: flex;
+    align-items: center;
+}
+
+.email-form-group .form-control-file input[type="file"] {
+    display: none;
+}
+
+.email-form-group .form-control-file label {
+    display: inline-block;
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.email-form-group .file-details {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.email-form-group .file-details .remove-file {
+    margin-left: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+.email-form-submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.email-form-submit button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.email-form-submit button:hover {
+    background-color: #0056b3;
+}

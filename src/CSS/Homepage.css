@@ -1,0 +1,44 @@
+
+  .carousel-caption {
+    color: #f8f9fa;
+  }
+  
+  .carousel-heading {
+    color: rgba(220, 208, 80, 0.99);
+    font-weight: bolder;
+  }
+  
+  .carousel-text {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .featurette-divider {
+    border-top: 2px solid black;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .featurette-heading{
+    color: rgb(147, 81, 212) !important;
+    
+  }
+  .fw-normal{
+    color: rgb(217, 214, 62) !important;
+  }
+  .text-muted{
+    color: silver !important;
+  }
+  .lead{
+    color: black !important;
+  }
+  
